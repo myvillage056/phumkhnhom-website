@@ -6,9 +6,10 @@
     "en": "Farmers & Agriculture",
     "km_short": "ដំណាំ ការចិញ្ចឹមសត្វ បច្ចេកទេស និងបទពិសោធន៍ពីកសិករខ្មែរ។",
     "en_short": "Crops, livestock, techniques and real experiences from Cambodian farmers.",
-    "img": "assets/cover.png",
-    "featured": true,
     "km_body": "ភូមិខ្ញុំនឹងនាំយករឿងរ៉ាវពិតពីកសិករ និងសហគមន៍។",
-    "en_body": "Phum Khnhom shares authentic stories from farmers and communities."
+    "en_body": "Phum Khnhom shares authentic stories from farmers and communities.",
+    "img": "assets/cover.png",
+    "youtube": "https://www.youtube.com/@phumkhnhomtv-w3g",
+    "featured": true
   }
 ]
