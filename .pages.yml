@@ -1,0 +1,59 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+
+content:
+  - name: stories
+    label: Stories
+    type: file
+    path: content/stories.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: ID
+        type: number
+        required: true
+      - name: cat
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - Agriculture
+            - Rural Life
+            - Local Products
+            - Culture
+            - Rural Tourism
+            - Occupation
+            - Community
+            - Business
+      - name: km
+        label: Khmer Title
+        type: string
+        required: true
+      - name: en
+        label: English Title
+        type: string
+      - name: km_short
+        label: Khmer Short Description
+        type: text
+      - name: en_short
+        label: English Short Description
+        type: text
+      - name: km_body
+        label: Khmer Full Story
+        type: rich-text
+      - name: en_body
+        label: English Full Story
+        type: rich-text
+      - name: img
+        label: Story Image
+        type: image
+      - name: youtube
+        label: YouTube Link
+        type: string
+      - name: featured
+        label: Featured
+        type: boolean
+        default: true
